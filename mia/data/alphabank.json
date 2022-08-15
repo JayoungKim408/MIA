@@ -1,0 +1,86 @@
+{
+    "columns":    [
+        {
+            "max": 95.0,
+            "min": 17.0,
+            "name": "Age",
+            "type": "continuous"
+        },
+        {
+            "i2s": [
+                "admin.",
+                "blue-collar",
+                "technician",
+                "services",
+                "management",
+                "retired",
+                "self-employed",
+                "entrepreneur",
+                "unemployed",
+                "housemaid",
+                "student"
+            ],
+            "name": "Job",
+            "size": 11,
+            "type": "categorical"
+        },
+        {
+            "i2s": [
+                "married",
+                "single",
+                "divorced"
+            ],
+            "name": "Marital_Status",
+            "size": 3,
+            "type": "categorical"
+        },
+        {
+            "i2s": [
+                "Secondary_Education",
+                "Tertiary_Education",
+                "Professional_Education",
+                "Primary_Education"
+            ],
+            "name": "Education",
+            "size": 4,
+            "type": "categorical"
+        },
+        {
+            "i2s": [
+                "no",
+                "yes"
+            ],
+            "name": "Default_Credit",
+            "size": 2,
+            "type": "categorical"
+        },
+        {
+            "i2s": [
+                "yes",
+                "no"
+            ],
+            "name": "Housing_Loan",
+            "size": 2,
+            "type": "categorical"
+        },
+        {
+            "i2s": [
+                "no",
+                "yes"
+            ],
+            "name": "Personal_Loan",
+            "size": 2,
+            "type": "categorical"
+        },
+        {
+            "i2s": [
+                "no",
+                "yes"
+            ],
+            "name": "label",
+            "size": 2,
+            "type": "categorical"
+        }
+    ],
+    "problem_type":"binary_classification"
+}
